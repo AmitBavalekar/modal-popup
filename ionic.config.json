@@ -1,0 +1,7 @@
+{
+  "name": "modalPopup",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
