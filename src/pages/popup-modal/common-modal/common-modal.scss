@@ -1,0 +1,23 @@
+ion-modal.inset-modal {
+  // transparent black background overlay
+  background-color: rgba(0, 0, 0, .5) !important;
+  transition: opacity .25s ease-in-out;
+  padding: 20vh 10vw;
+}
+
+.inset-modal .modal-wrapper{
+  position: absolute;
+  overflow: hidden;
+  max-width: 90%;
+  border-radius: 10px;
+  width: 90%;
+  height: 90% !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 0;
+  box-shadow: 0 16px 20px rgba(0,0,0,.4);
+  background-color: #fafafa;
+}

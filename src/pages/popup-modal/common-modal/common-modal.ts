@@ -1,5 +1,5 @@
-import { NavParams, ViewController, IonicPage } from 'ionic-angular';
-import { Component, Input } from '@angular/core';
+import { ViewController } from 'ionic-angular';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'common-modal',
